@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>de.appwerft.zahlennachmass</id>
+    <name>Zahlennachmass</name>
+    <version>1.0.0</version>
+    <publisher>fuerst</publisher>
+    <url>http://hamburger-appwerft.de</url>
+    <description>undefined</description>
+    <copyright>2016 by fuerst</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>ca420246-e25c-4ebf-9666-760dc51aefef</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">false</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <modules>
+        <module platform="android">com.alcoapps.actionbarextras</module>
+        <module platform="android" version="3.0.1">com.acktie.mobile.android.qr</module>
+        <module platform="iphone">ti.imagefactory</module>
+        <module platform="android">ti.imagefactory</module>
+         <module platform="android">yy.tidialogs</module>
+        <module platform="android">org.iotashan.titouchimageview</module>
+        <module platform="iphone">ti.touchid</module>
+        <module platform="android">ti.touchid</module>
+        <module platform="android">de.appwerft.waterwaveprogress</module>
+        <module platform="android">com.wwl.canvas</module>
+        <module platform="android">de.marcelpociot.autofocus</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>6.0.1.GA</sdk-version>
+</ti:app>

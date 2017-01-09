@@ -1,0 +1,13 @@
+<resources>
+	<string name="app_name">ZahlenNachMaß</string>
+	<string name="SCAN_INTRO">Vor der ersten Nutzung muss die App mit dem zugesendeten QR-Code aktiviert werden.</string>
+	<string name="SCAN_HINT">Tippen Sie auf das große QR-Code-Symbol, um den Scan des Kunden-Codes zu starten:</string>
+	<string name="SCAN_HELP">Bitte halten Sie das Smartphone so, dass der QR-Code im Fenster erscheint.</string>
+<string name="FINGERPRINT">Fingerabdrucksensor nutzen</string>
+	<string name="SOUND">Klangausgabe</string>
+	<string name="DELETEAFTER">Nach dem Hochladen löschen</string>
+	<string name="VALIDATION">Belege vor dem Hochladen validieren</string>
+	<string name="ONLYWIFI">Hochladen nur im WLAN</string>	
+	<string name="VIBRATION">Vibrationen</string>
+	
+</resources>

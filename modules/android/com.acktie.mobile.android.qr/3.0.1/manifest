@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 3.0.1
+apiversion: 3
+description: Simple Drop in and Use QR code reader for Android
+author: Tony Nuzzi
+license: See LICENSE file
+copyright: Copyright 2012-2013 Acktie, LLC, All Rights Reserved
+
+
+# these should not be edited
+architectures: armeabi-v7a x86
+name: acktiemobileandroidqr
+moduleid: com.acktie.mobile.android.qr
+guid: cd56affd-21e4-425e-9c8a-34e6ddeb4541
+platform: android
+minsdk: 6.0.0.GA

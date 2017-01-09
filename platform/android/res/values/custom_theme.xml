@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.myTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">#195797</item>
+		<item name="colorPrimaryDark">#001F5F</item>
+		<item name="colorAccent">#195797</item>
+		<item name="colorControlNormal">#757575</item>
+		<item name="colorControlActivated">#195797</item>
+		<item name="colorControlHighlight">#195797</item>
+		<item name="colorSwitchThumbNormal">#BDBDBD</item>
+		<item name="android:colorButtonNormal">#BDBDBD</item>
+		<item name="android:colorEdgeEffect">#195797</item>
+	</style>
+	<style name="Theme.FingerprintDialog" parent="Theme.AppCompat.Translucent.NoTitleBar">
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name="android:fitsSystemWindows">false</item>
+		
+		<item name="android:windowTranslucentNavigation">false</item>
+		<item name="colorPrimary">#195797</item>
+		<item name="colorPrimaryDark">#001F5F</item>
+		<item name="colorAccent">#195797</item>
+		<item name="colorControlNormal">#757575</item>
+		<item name="colorControlActivated">#195797</item>
+		<item name="colorControlHighlight">#195797</item>
+		<item name="colorSwitchThumbNormal">#BDBDBD</item>
+		<item name="android:colorButtonNormal">#BDBDBD</item>
+		<item name="android:colorEdgeEffect">#195797</item>
+	</style>
+</resources>

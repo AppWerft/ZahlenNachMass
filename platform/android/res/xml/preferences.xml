@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Einstellungen">
+ 
+  <PreferenceCategory android:title="Sicherheit">
+    <CheckBoxPreference
+      android:title="Fingersensor"
+      android:defaultValue="false"
+      android:summary="Zugang ist über Fingersensor geschützt (muss Telefon unterstützen)"
+      android:key="FINGERPRINT" />
+    
+  </PreferenceCategory>
+ 
+</PreferenceScreen>

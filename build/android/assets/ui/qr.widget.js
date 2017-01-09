@@ -1,0 +1,1 @@
+/Users/fuerst/Documents/APPC_WORKSPACE/ZahlenNachMass/Resources/ui/qr.widget.js
